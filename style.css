@@ -93,3 +93,16 @@ a {
 .top-text {
     padding-bottom: -10px;
 }
+
+label, input {
+    display: block
+}
+
+input:focus {
+    outline: none !important;
+    border: 3px blue solid;
+}
+
+#password:invalid, #confirmPassword:invalid {
+    border-color: red;
+}
