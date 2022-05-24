@@ -24,7 +24,7 @@ body {
 .odin {
     position: absolute;
     right: 0;
-    color: white
+    color: whitesmoke
 }
 
 .disclaimer {
@@ -46,4 +46,8 @@ body {
     margin-top: 70px;
     background-color: rgb(45, 0, 82);
     padding: 10px
+}
+
+#table {
+    border-spacing: 20px;
 }
