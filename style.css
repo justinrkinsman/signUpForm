@@ -1,4 +1,9 @@
-img {
+@font-face {
+    font-family: norseBold;
+    src: url(Norse-Bold.otf);
+}
+
+.tokyo {
     height: 100vh;
     width: auto;
     position: sticky;
@@ -18,12 +23,6 @@ body {
     box-sizing: border-box;
     margin: 0px;
     background-color: rgb(32, 1, 58);
-    color: white
-}
-
-.odin {
-    position: absolute;
-    right: 0;
     color: whitesmoke
 }
 
@@ -36,6 +35,9 @@ body {
     border-radius: 8px;
     border: 0;
     background-color: rgb(24, 5, 194);
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(245, 234, 202)
 }
 
 .account {
@@ -43,11 +45,51 @@ body {
 }
 
 .form {
-    margin-top: 70px;
+    margin-top: 40px;
     background-color: rgb(45, 0, 82);
     padding: 10px
 }
 
 #table {
     border-spacing: 20px;
+}
+
+.odinImg {
+    height: 100px;
+    width: auto;
+}
+
+.odinText {
+    font-size: 40px;
+    font-family: 'norseBold';
+}
+
+.banner {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: row-reverse;
+    position: absolute;
+    bottom: 61vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    z-index: 100;
+    width: 385px;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+}
+
+.body {
+    width: 100vw
+}
+
+a {
+    color: rgb(24, 5, 194)
+}
+
+.top-text {
+    padding-bottom: -10px;
 }
